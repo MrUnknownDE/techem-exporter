@@ -2,12 +2,14 @@
 
 Ein automatisiertes Tool zum Export von Verbrauchsdaten (Heizung & Warmwasser) aus dem Techem Mieterportal in eine strukturierte Excel-Tabelle. Das Skript nutzt Playwright zur Browser-Automatisierung und navigiert effizient durch die monatlichen Verbrauchsübersichten.
 
+Beispiel-Export: 
+![](.github/26RI82.png)
+
 ## Features
 - **Automatischer Login**: Handhabt den Azure AD B2C Login-Prozess.
 - **Cookie-Banner Bypass**: Erkennt und schließt den Cookiebot-Banner automatisch.
 - **Intelligente Extraktion**: Nutzt Regex-Parsing, um Heizungs- und Wasserwerte direkt aus dem DOM zu lesen.
 - **Smart Formatting**: Erstellt eine Excel-Datei im Horizontal-Layout (Monat | Warmwasser | Heizung).
-- **Admin-Ready**: Vollständig über `.env` konfigurierbar mit anpassbaren Timeouts und Debug-Modus.
 
 ## Voraussetzungen
 - Node.js (v16 oder höher)
