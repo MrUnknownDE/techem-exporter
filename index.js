@@ -50,7 +50,7 @@ async function runExport() {
         console.log('✅ Login erfolgreich.');
 
         // --- DATEN EXTRAKTION ---
-const months = [];
+        const months = [];
         let current = dayjs(config.startDate);
         const end = dayjs(config.endDate);
         while (current.isBefore(end) || current.isSame(end)) {
